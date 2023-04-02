@@ -96,7 +96,7 @@ if rad=="Results_on_Twitter":
     st.text(" ")
     st.image("SAA2.jpg")
 if rad=="Results_on_Reddit":
-    st.title("SENTIMENT ANALYSIS ON ChatGPT TWEETS")
+    st.title("SENTIMENT ANALYSIS ON ChatGPT POSTS")
     st.image("SAA3.jpg")
     st.text(" ")
     st.text(" ")
