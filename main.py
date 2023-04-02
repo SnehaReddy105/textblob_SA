@@ -13,7 +13,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 sw=nltk.corpus.stopwords.words("english")
 
-rad=st.sidebar.radio("Navigation",["Home","Sentiment Analysis","Results"])
+rad=st.sidebar.radio("Navigation",["Home","Sentiment Analysis","Results_on_Twitter","Results_on_Reddit"])
 if rad=="Home":
     st.title("SENTIMENT ANALYSIS")
     st.image("SAA.jpg")
@@ -88,10 +88,17 @@ if rad=="Sentiment Analysis":
                 file_name='sentiment.csv',
                 mime='text/csv',
             )
-if rad=="Results":
+if rad=="Results_on_Twitter":
     st.title("SENTIMENT ANALYSIS ON ChatGPT TWEETS")
     st.image("SAA1.jpg")
     st.text(" ")
     st.text(" ")
     st.text(" ")
     st.image("SAA2.jpg")
+if rad=="Results_on_Reddit":
+    st.title("SENTIMENT ANALYSIS ON ChatGPT TWEETS")
+    st.image("SAA3.jpg")
+    st.text(" ")
+    st.text(" ")
+    st.text(" ")
+    st.image("SAA4.jpg")
